@@ -5,7 +5,7 @@ import com.lendable.model.Item
 /**
  * A shopping cart that allows adding, removing items, applying discounts, and generating receipts.
  */
-class Cart : ShoppingCart {
+class CartService : ShoppingCart {
 
     private val items = mutableMapOf<Item, Int>()
 
